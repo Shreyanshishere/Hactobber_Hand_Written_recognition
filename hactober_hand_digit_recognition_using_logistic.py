@@ -6,7 +6,8 @@ mnist=fetch_openml('mnist_784')
   #1 Update X and Y values
   
   
-
+x=mnist.data.values
+y=mnist.target
 
 temp=x[95]
 temp.shape
